@@ -1,0 +1,94 @@
+@keyframes loading-two-rotate{
+    0%{
+        transform: scale(1.5);
+    }
+    12.5%{
+        transform: scale(1.4);
+    }
+    25%{
+        transform: scale(1.3);
+    }
+    37.5%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    62.5%{
+        transform: scale(1.0);
+    }
+    75%{
+        transform: scale(0.9);
+    }
+    87.5%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+.loading-two .bar-one, .loading-two .bar-two, .loading-two .bar-three, .loading-two .bar-four,
+.loading-two .bar-five, .loading-two .bar-six, .loading-two .bar-seven, .loading-two .bar-eight{
+    position: absolute;
+    width: 20px;
+    height: 75px;
+    margin-left: -10px;
+    transform-origin: center bottom;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.loading-two{
+    align-items: flex-start;
+}
+
+.loading-two .bar-one{
+    transform: rotate(0deg);
+}
+.loading-two .bar-two{
+    transform: rotate(45deg);
+}
+.loading-two .bar-three{
+    transform: rotate(90deg);
+}
+.loading-two .bar-four{
+    transform: rotate(135deg);
+}
+.loading-two .bar-five{
+    transform: rotate(180deg);
+}
+.loading-two .bar-six{
+    transform: rotate(225deg);
+}
+.loading-two .bar-seven{
+    transform: rotate(270deg);
+}
+.loading-two .bar-eight{
+    transform: rotate(315deg);
+}
+
+.bar-one .one{
+    animation: loading-two-rotate 0.8s infinite;
+}
+.bar-two .two{
+    animation: loading-two-rotate 0.8s 0.1s infinite;
+}
+.bar-three .three{
+    animation: loading-two-rotate 0.8s 0.2s infinite;
+}
+.bar-four .four{
+    animation: loading-two-rotate 0.8s 0.3s infinite;
+}
+.bar-five .five{
+    animation: loading-two-rotate 0.8s 0.4s infinite;
+}
+.bar-six .six{
+    animation: loading-two-rotate 0.8s 0.5s infinite;
+}
+.bar-seven .seven{
+    animation: loading-two-rotate 0.8s 0.6s infinite;
+}
+.bar-eight .eight{
+    animation: loading-two-rotate 0.8s 0.7s infinite;
+}

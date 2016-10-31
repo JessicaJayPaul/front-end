@@ -1,0 +1,91 @@
+@keyframes tranlateXToLeft{
+    0%{
+        background-position: 0px center;
+    }
+    80%{
+        background-position: -10px center;
+    }
+    100%{
+        background-position: 0px center;
+    }
+}
+
+@keyframes tranlateXToRight{
+    0%{
+        background-position: 0px center;
+    }
+    80%{
+        background-position: 10px center;
+    }
+    100%{
+        background-position: 0px center;
+    }
+}
+
+.carousel{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+a{
+    display: block; 
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.one{
+    left: 0;
+    top: 0;
+    background: url("../../img/carousel/one.png");
+}
+.two{
+    left: 100%;
+    top: 0;
+    background: url("../../img/carousel/two.png");
+}
+.three{
+    left: 200%;
+    top: 0;
+    background: url("../../img/carousel/three.png");
+}
+.four{
+    left: -100%;
+    top: 0;
+    background: url("../../img/carousel/four.png");
+}
+
+.carousel-control{
+    position: absolute;
+    width: 64px;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s;
+}
+.carousel:hover .carousel-control{
+    opacity: 1;
+}
+.carousel:hover .left:hover{
+    animation: tranlateXToLeft 0.5s linear infinite;
+}
+.carousel:hover .right:hover{
+    animation: tranlateXToRight 0.5s linear infinite;
+}
+
+.left{
+    background-image: url("../../img/carousel/left.png");
+    left: 0;
+}
+.right{
+    background-image: url("../../img/carousel/right.png");
+    right: 0;
+}

@@ -1,0 +1,34 @@
+@keyframes loading-one-wave{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.loading-one .one{
+    animation: loading-one-wave 0.6s infinite;
+}
+.loading-one .two{
+    animation: loading-one-wave 0.6s 0.1s infinite;
+}
+.loading-one .three{
+    animation: loading-one-wave 0.6s 0.2s infinite;
+}
+.loading-one .four{
+    animation: loading-one-wave 0.6s 0.3s infinite;
+}
+
+.loading-one .one, .loading-one .two, .loading-one .three, .loading-one .four{
+    margin: 8px;
+}

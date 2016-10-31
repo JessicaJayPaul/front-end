@@ -1,0 +1,13 @@
+body{
+    color: white;
+    font-family: Microsoft Yahei;
+    background: rgb(39, 40, 34);
+}
+
+header, .content{
+    padding: 10px 50px;
+}
+
+a{
+    color: inherit;
+}
