@@ -11,11 +11,11 @@
     height: 35px;
     margin-left: -5px;
     transform-origin: center 65px;
-    background: white;
+    background: #0070c9;
 }
 
 @keyframes loading-five-bar{
-	0%{
+    0%{
         opacity: 1;
     }
     50%{

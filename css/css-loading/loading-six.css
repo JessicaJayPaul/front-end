@@ -3,7 +3,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 6px solid white;
+    border: 6px solid #0070c9;
 }
 
 @keyframes loading-six-clock{
@@ -21,7 +21,7 @@
     height: 50px;
     left: 47px;
     top: 3px;
-    background: white;
+    background: #0070c9;
     transform-origin: center 47px;
     animation: loading-six-clock .5s linear infinite;
 }
@@ -32,7 +32,7 @@
     height: 40px;
     left: 47px;
     top: 13px;
-    background: white;
+    background: #0070c9;
     transform-origin: center 37px;
     animation: loading-six-clock 6s linear infinite;
 }

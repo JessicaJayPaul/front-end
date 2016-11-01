@@ -1,7 +1,6 @@
 body{
-    color: white;
     font-family: Microsoft Yahei;
-    background: rgb(39, 40, 34);
+    background: #fff;
 }
 
 header, .content{
@@ -9,5 +8,10 @@ header, .content{
 }
 
 a{
-    color: inherit;
+    color: #0070c9;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }

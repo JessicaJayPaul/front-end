@@ -1,15 +1,6 @@
 body{
     padding: 50px 100px;
-    background: #8B008B;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #1E90FF;
+    background: #fff;
 }
 
 .content:after{
@@ -29,8 +20,8 @@ a:hover{
 }
 
 .ball{
-    background: white;
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    background: #0070c9;
 }
