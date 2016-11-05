@@ -1,10 +1,29 @@
+html{
+    height: 100%;
+    min-width: 1000px;
+}
+
 body{
+    width: 800px;
+    height: calc(100% - 20px);
+    margin: 0 auto;
     font-family: Microsoft Yahei;
-    background: #fff;
+    background: url('../img/body-bg.jpg') no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
 }
 
 header, .content{
+    height: 125px;
+    margin-top: 10px;
     padding: 10px 50px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.content{
+    height: calc(100% - 175px);
+    overflow-y: scroll;
 }
 
 a{

@@ -7,7 +7,7 @@
 
 ##一些简单的loading动画
 
-http://www.jiantao.site/front-end/html/css-loading.html  
+示例地址：http://www.jiantao.site/front-end/html/css-loading.html  
 
 ##仿电商广告的无限轮播图
 
