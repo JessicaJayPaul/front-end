@@ -8,7 +8,6 @@ body{
     height: calc(100% - 20px);
     margin: 0 auto;
     font-family: Microsoft Yahei;
-    /*background: url('../img/body-bg.jpg') no-repeat;*/
     background: url('http://ofp3nt5fr.bkt.clouddn.com/bg.jpg') no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
