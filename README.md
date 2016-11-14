@@ -12,3 +12,7 @@
 ##仿电商广告的无限轮播图
 
 示例地址：http://www.jiantao.site/front-end/html/carousel.html
+
+##简易的全屏滚动效果
+
+示例地址：http://www.jiantao.site/front-end/html/fullpage.html
