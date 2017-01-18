@@ -7,16 +7,16 @@
 
 ##loading动画
 
-[示例地址](loading/index.html "loading动画")
+[示例地址](http://jiantao.site/front-end/loading/index.html "loading动画")
 
 ##无限轮播图
 
-[示例地址](carousel/index.html "无限轮播图")
+[示例地址](http://jiantao.site/front-end/loading/index.htmlcarousel/index.html "无限轮播图")
 
 ##全屏滚动
 
-[示例地址](fullpage/index.html "全屏滚动")
+[示例地址](http://jiantao.site/front-end/loading/index.htmlfullpage/index.html "全屏滚动")
 
 ##模拟打字机
 
-[示例地址](type/index.html "模拟打字机")
+[示例地址](http://jiantao.site/front-end/loading/index.htmltype/index.html "模拟打字机")
