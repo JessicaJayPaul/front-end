@@ -1,3 +1,4 @@
+/* 画缺角圆 */
 $(document).ready(function (){
     var context = $("#canvas-seven")[0].getContext("2d");
     // beginPath和closePath类似下笔的时刻和抬起的时刻

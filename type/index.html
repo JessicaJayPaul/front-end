@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打字机效果</title>
+    <style type="text/css">
+        @keyframes cursor{
+            50% {
+                border-right-color: transparent;
+            }
+        }
+
+        h1{
+            display: inline-block;
+            border-right: .1em solid black;
+            animation: cursor .5s step-start infinite;
+            white-space: nowrap;
+        }
+    </style>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+<h1></h1>
+
+<script type="text/javascript">
+    $(function(){
+        var str = "今天也遇到类似需求，国内搜索引擎得到的答案，如何也不能很好的工作（😂），还是国外给的答案参考性更为靠谱，参考how-to-dynamically-create-keyframe-css-animations；";
+        var interval = setInterval(function(){
+            var curLength = $("h1").text().length;
+            $("h1").append(str.charAt(curLength));
+            if (curLength == str.length) {
+                clearInterval(interval);
+            }
+        }, 300);
+    });
+</script>
+</body>
+</html>
