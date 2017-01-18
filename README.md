@@ -11,12 +11,12 @@
 
 ##无限轮播图
 
-[示例地址](http://jiantao.site/front-end/loading/index.htmlcarousel/index.html "无限轮播图")
+[示例地址](http://jiantao.site/front-end/carousel/index.html "无限轮播图")
 
 ##全屏滚动
 
-[示例地址](http://jiantao.site/front-end/loading/index.htmlfullpage/index.html "全屏滚动")
+[示例地址](http://jiantao.site/front-end/fullpage/index.html "全屏滚动")
 
 ##模拟打字机
 
-[示例地址](http://jiantao.site/front-end/loading/index.htmltype/index.html "模拟打字机")
+[示例地址](http://jiantao.site/front-end/type/index.html "模拟打字机")
