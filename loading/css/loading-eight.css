@@ -1,0 +1,42 @@
+.loading-eight .bar{
+    width: 10px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #0070c9;
+}
+
+@keyframes loading-eight{
+    25%{
+        height: 25px;
+    }
+    50%{
+        height: 50px;
+    }
+    75%{
+        height: 75px
+    }
+    100%{
+        height: 50px;
+    }
+}
+
+.loading-eight .one{
+    animation: loading-eight 1s linear infinite;
+}
+
+.loading-eight .two{
+    animation: loading-eight 1s linear 0.25s infinite;
+}
+
+.loading-eight .three{
+    animation: loading-eight 1s linear 0.5s infinite;
+}
+
+.loading-eight .four{
+    animation: loading-eight 1s linear 0.75s infinite;
+}
+
+.loading-eight .five{
+    animation: loading-eight 1s linear 1s infinite;
+}
