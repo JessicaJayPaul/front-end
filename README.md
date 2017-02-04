@@ -20,3 +20,7 @@
 ##模拟打字机
 
 [示例地址](http://jiantao.site/front-end/type/index.html "模拟打字机")
+
+##局部模糊
+
+[示例地址](http://jiantao.site/front-end/blur/index.html "局部模糊")

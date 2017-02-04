@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>局部模糊</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+
+        div{
+            position: relative;
+            width: 600px;
+            height: 400px;
+            background: url("http://ofp3nt5fr.bkt.clouddn.com/img/carousel/one.png") no-repeat;
+        }
+
+        .blur{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -75px 0 0 -75px;
+            display: block;
+            border: 2px dotted rgba(0, 0, 0, .5);
+            width: 150px;
+            height: 150px;
+            content: '';
+            background: url("http://ofp3nt5fr.bkt.clouddn.com/img/carousel/one.png") no-repeat fixed;
+            filter: blur(5px);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="blur"></div>
+    </div>
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="wuli-drag.js"></script>
+    <script type="text/javascript">
+        $(".blur").draggable();
+    </script>
+</body>
+</html>
